@@ -1,0 +1,30 @@
+{
+  "name": "ohata",
+  "version": "1.0.0",
+  "description": "package_test sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenjiohata/package_test.git"
+  },
+  "author": "ohata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenjiohata/package_test/issues"
+  },
+  "homepage": "https://github.com/kenjiohata/package_test",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "jquery": "github:components/jquery@^2.1.3",
+      "lodash": "npm:lodash@^3.6.0"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.87",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87"
+    }
+  }
+}
